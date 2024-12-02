@@ -4,7 +4,7 @@ import numpy as np
 
 file = "blues.wav"
 
-
+# This is a sample data preprocessing file done with sample audio to understand the working & concept of sound
 
 #WAVEFORM
 signal, sr =  librosa.load(file, sr=22050) # sr * T -> 22050*30 ( T = 30 secs)
